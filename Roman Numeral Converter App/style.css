@@ -1,0 +1,65 @@
+body {
+    background-color: #508ae3;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(269.60, 75%, 45%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(197.95, 87%, 54%) 0, transparent 55%);
+    color: white;
+    font-family: Monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.33);
+}
+
+h2 {
+    text-align: center;
+    color: #5200cc;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 25px;
+    border-radius: 10px;
+
+}
+
+::placeholder {
+    color: #5200cc;
+}
+
+#convert-btn {
+    padding: 10px;
+    margin: 10px 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+    background-image:
+        linear-gradient(180deg, #508ae3, violet)
+}
+
+#convert-btn:hover {
+    transform: scale(1.02)
+}
+
+#output {
+    font-size: 25px;
+    text-align: center;
+    color: #5200cc;
+    padding: 10px;
+    margin: 10px 25px;
+}
